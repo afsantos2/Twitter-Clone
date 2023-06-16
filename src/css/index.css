@@ -9,6 +9,6 @@ main{
 
 @media (max-width:499px) {
   main {
-    margin-top: var(--altura-topoa);
+    margin-top: var(--altura-topo);
   }
 }
