@@ -1,0 +1,14 @@
+@import './header.css';
+@import './footer.css';
+@import './reset.css';
+@import './variaveis.css';
+
+main{  
+  border: 1px solid;
+}
+
+@media (max-width:499px) {
+  main {
+    margin-top: var(--altura-topoa);
+  }
+}

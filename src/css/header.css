@@ -1,0 +1,62 @@
+header{ 
+  width: 100%;
+  height: var(--altura-topo);
+}
+
+@media (max-width: 499px) {
+  header {
+    position: fixed;    
+    top: 0;
+  }
+}
+
+@media (min-width:500px) {
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+header ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--altura-topo);
+  padding: 0 20px;    
+}
+
+.busca-icone-box{
+  display: flex;
+  gap: 14px;
+}
+
+.busca-icone{
+  fill: currentColor;
+  color: rgb(83, 100, 113);
+  height: 1.25rem;
+}
+
+header .config-icone-box{
+  color: rgb(15, 20, 25);
+  display: flex;
+  justify-items: center;
+  width: 25px;
+}
+
+.config-icone{
+  width: 100%;
+}
+
+
+@media (max-width:1280px) {
+  .config-tt{
+    display: none;
+  }  
+}  
+  
+.twitter-icone{
+  color: var(--azul-claro);
+  fill: currentColor;
+  width: 20px;
+  height: 1.75rem;
+}  

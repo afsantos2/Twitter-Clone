@@ -1,0 +1,18 @@
+.rodape-flutuante{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+
+  border: 1px solid;
+}
+
+.btn{
+  height: 35px;
+  width: 150px;
+  border-radius: 50px;
+}
