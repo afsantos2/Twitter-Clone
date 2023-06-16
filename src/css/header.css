@@ -33,6 +33,12 @@ header{
   }
 }
 
+@media (min-width:1280px) {
+  header{
+    flex: 1;
+  }
+}
+
 header ul{
   display: flex;
   justify-content: space-between;
