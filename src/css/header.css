@@ -1,6 +1,7 @@
 header{ 
   width: 100%;
   height: var(--altura-topo);
+  border: 1px solid;
 }
 
 @media (max-width: 499px) {
@@ -11,9 +12,24 @@ header{
 }
 
 @media (min-width:500px) {
-  header{
+  .container {
+    height: 100vh;
+  }
+
+  header {
+    width: 15%;
+    height: 100%;
+  }
+
+  header ul{
     display: flex;
+    gap: 20px;
     flex-direction: column;
+    opacity: .5;
+  }
+
+  #busca-campo{
+    display: none;
   }
 }
 
@@ -32,7 +48,7 @@ header ul{
 
 .busca-icone{
   fill: currentColor;
-  color: rgb(83, 100, 113);
+  color: #536471;
   height: 1.25rem;
 }
 
@@ -47,10 +63,14 @@ header .config-icone-box{
   width: 100%;
 }
 
+.config-tt{
+  display: none;
+}
 
-@media (max-width:1280px) {
+
+@media (min-width:1000px) {
   .config-tt{
-    display: none;
+    display: block;
   }  
 }  
   
