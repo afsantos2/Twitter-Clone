@@ -26,12 +26,12 @@ main{
   }
 }
 
-.terceira-coluna {
+.coluna-lateral-direita {
   display: none;
 }
 
 @media (min-width:1024px) {
-  .terceira-coluna {
+  .coluna-lateral-direita {
     display: flex;
     flex: 1;
     justify-content: center;
