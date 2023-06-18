@@ -1,42 +1,6 @@
 header{ 
   width: 100%;
   height: var(--altura-topo);
-  border: 1px solid;
-}
-
-@media (max-width: 499px) {
-  header {
-    position: fixed;    
-    top: 0;
-  }
-}
-
-@media (min-width:500px) {
-  .container {
-    height: 100vh;
-  }
-
-  header {
-    width: 15%;
-    height: 100%;
-  }
-
-  header ul{
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    opacity: .5;
-  }
-
-  #busca-campo{
-    display: none;
-  }
-}
-
-@media (min-width:1280px) {
-  header{
-    flex: 1;
-  }
 }
 
 header ul{
@@ -58,31 +22,81 @@ header ul{
   height: 1.25rem;
 }
 
-header .config-icone-box{
+.config-icone-box{
   color: rgb(15, 20, 25);
   display: flex;
   justify-items: center;
   width: 25px;
 }
 
-.config-icone{
+.config-icone-pontos {
   width: 100%;
 }
 
 .config-tt{
   display: none;
 }
-
-
-@media (min-width:1000px) {
-  .config-tt{
-    display: block;
-  }  
-}  
   
 .twitter-icone{
   color: var(--azul-claro);
   fill: currentColor;
   width: 20px;
   height: 1.75rem;
-}  
+}
+
+@media (max-width: 499px) {
+  header {
+    position: fixed;    
+    top: 0;
+  }
+
+  .config-icone-eng {
+    display: none;
+  }
+}
+
+@media (min-width:500px) {
+  .container {
+    height: 100vh;
+  }
+
+  header {
+    width: 15%;
+    height: 100%;
+  }
+
+  header ul{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    opacity: .5;
+  }
+
+  #busca-campo {
+    display: none;
+  }
+
+  .config-icone-pontos {
+    display: none;
+  }
+}
+
+@media (min-width:1280px) {
+  header {
+    flex: .9;
+  }
+
+  .config-tt {
+    display: block;
+  }
+  
+  .config-icone-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .topo-menu-item:last-child {
+    display: flex;
+  }
+}
