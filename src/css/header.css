@@ -33,15 +33,19 @@ header ul{
   width: 100%;
 }
 
-.config-tt{
+.config-tt,
+.explorar-tt{
   display: none;
+}
+
+.twitter-icone-box {
+  width: 28px;
 }
   
 .twitter-icone{
   color: var(--azul-claro);
   fill: currentColor;
-  width: 20px;
-  height: 1.75rem;
+  width: 100%;
 }
 
 @media (max-width: 499px) {
@@ -60,6 +64,11 @@ header ul{
     height: 100vh;
   }
 
+  .topo-limite {
+    padding: 0 4px;
+    height: 100%;
+  }
+
   header {
     width: 15%;
     height: 100%;
@@ -69,7 +78,7 @@ header ul{
     display: flex;
     gap: 20px;
     flex-direction: column;
-    opacity: .5;
+    height: fit-content;
   }
 
   #busca-campo {
@@ -81,12 +90,29 @@ header ul{
   }
 }
 
+@media (min-width:640px) {
+  .topo-limite {
+    padding: 0 8px;
+    margin-left: auto;
+  }
+}
+
 @media (min-width:1280px) {
   header {
     flex: .9;
   }
 
-  .config-tt {
+  header ul {
+    align-items: flex-start;
+    height: min-content;
+  }
+
+  .topo-limite {
+    width: 275px;
+  }
+
+  .config-tt, 
+  .explorar-tt {
     display: block;
   }
   
@@ -96,7 +122,9 @@ header ul{
     align-items: center;
   }
 
-  .topo-menu-item:last-child {
+  .topo-menu-item:is(:nth-child(2), :nth-child(3)) {
     display: flex;
+    align-items: center;
+    gap: 20px;
   }
 }
