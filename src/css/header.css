@@ -16,7 +16,7 @@ header ul{
   gap: 14px;
 }
 
-.busca-icone{
+.busca-icone-rwd{
   fill: currentColor;
   color: #536471;
   height: 1.25rem;
@@ -39,7 +39,7 @@ header ul{
 }
 
 .twitter-icone-box {
-  width: 28px;
+  width: 30px;
 }
   
 .twitter-icone{
@@ -66,7 +66,7 @@ header ul{
   }
 
   .topo-menu-item:hover:nth-child(2) {
-    border: 1px solid var(--azul-claro);
+    outline: 1px solid var(--azul-claro);
   }
 
   .busca-box {
@@ -85,6 +85,10 @@ header ul{
 
   .busca-icone-box {
     padding-left: 25px;
+  }
+
+  .busca-icone-tablet {
+    display: none;
   }
 
   #busca-campo {
@@ -106,21 +110,31 @@ header ul{
   .topo-limite {
     padding: 0 4px;
     height: 100%;
+    margin-top: 14px;
   }
 
   header {
     width: 15%;
     height: 100%;
+    border-right: 1px solid var(--cinza-claro);
   }
 
   header ul{
     display: flex;
-    gap: 20px;
+    gap: 24px;
     flex-direction: column;
     height: fit-content;
   }
 
   #busca-campo {
+    display: none;
+  }
+
+  .busca-box {
+    width: 28px;
+  }
+
+  .busca-icone-rwd {
     display: none;
   }
 
