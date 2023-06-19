@@ -23,7 +23,6 @@ header ul{
 }
 
 .config-icone-box{
-  color: rgb(15, 20, 25);
   display: flex;
   justify-items: center;
   width: 25px;
@@ -31,6 +30,7 @@ header ul{
 
 .config-icone-pontos {
   width: 100%;
+  fill: var(--cinza-escuro);
 }
 
 .config-tt,
@@ -57,6 +57,45 @@ header ul{
   .config-icone-eng {
     display: none;
   }
+
+  .topo-menu-item:nth-child(2) {
+    display: flex;
+    flex: 0 1 315px;
+    border-radius: 20px;
+    margin-inline: 20px;  
+  }
+
+  .topo-menu-item:hover:nth-child(2) {
+    border: 1px solid var(--azul-claro);
+  }
+
+  .busca-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #eff3f4;
+  }
+
+  .busca-box:hover{
+    background-color: white;
+  }
+
+  .busca-icone-box {
+    padding-left: 25px;
+  }
+
+  #busca-campo {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+  }
+
+
 }
 
 @media (min-width:500px) {
