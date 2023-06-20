@@ -139,6 +139,19 @@ header ul{
   .config-icone-pontos {
     display: none;
   }
+
+  .topo-menu-item {
+    padding: 12px;
+    transition-property: background-color, border-radius;
+    transition-duration: 300ms;
+  }
+
+  .topo-menu-item:hover{
+    background-color: var(--cinza-claro-2);
+    border-radius: 9999px;
+    justify-content: center;
+    display: flex;    
+  }
 }
 
 @media (min-width:640px) {
