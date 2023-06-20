@@ -70,6 +70,17 @@ header ul{
     outline: 1px solid var(--azul-claro);
   }
 
+  .topo-menu-item:nth-child(3) {
+    padding: 10px;
+  }
+
+  .topo-menu-item:active:nth-child(3) {
+    background-color: var(--cinza-claro-2);
+    border-radius: 9999px;
+    justify-content: center;
+    display: flex;
+  }
+
   .busca-box {
     display: flex;
     gap: 20px;
@@ -149,7 +160,8 @@ header ul{
     background-color: var(--cinza-claro-2);
     border-radius: 9999px;
     justify-content: center;
-    display: flex;    
+    display: flex;
+    cursor: pointer;    
   }
 }
 
