@@ -117,10 +117,6 @@ header ul{
 }
 
 @media (min-width:500px) {
-  .container {
-    height: 100vh;
-  }
-
   .topo-limite {
     padding: 0 4px;
     height: 100%;
