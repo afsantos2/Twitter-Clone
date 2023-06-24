@@ -1,11 +1,14 @@
 :root{
   /* cores */
+  --branco-transparente-1: rgba(255, 255, 255, 0.851);
+  --azul-claro: rgb(29, 155, 240);
+  --cinza-claro: rgb(239, 243, 244);
+  --cinza-claro-2: rgba(15, 20, 25, 0.102);
+  --cinza-transparente-1: rgba(255, 255, 255, 0.302);
+  --cinza-escuro: rgb(56, 67, 76);
+  --cinza-escuro-2: rgb(83, 100, 113);
+  --cinza-escuro-3: rgb(15, 20, 25);  
   --preto:#000;
-  --azul-claro: #1d9bf0;
-  --cinza-escuro: #39444d;
-  --cinza-escuro-2: #536471;
-  --cinza-claro: #eff3f4;
-  --cinza-claro-2: rgba(15, 20, 25, .1);
 
   /* medidas */
   --altura-topo:53px;
