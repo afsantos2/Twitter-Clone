@@ -10,7 +10,7 @@ function postGerador() {
   if ($post) clonar($post)
 
   function clonar($alvo) {
-    postagens.forEach((post, i) => {
+    postagens.forEach((post, indice) => {
       const $clone = $alvo.cloneNode(true)
       $clone.dataset.cloneId = post.id
 
@@ -29,12 +29,12 @@ function postGerador() {
         '.js-post-stat-views'
       ]
       
-      const teste = statClasses.map(classe => {
+      statClasses.map(classe => {
         $clone.querySelector(classe).innerText = Math.floor(Math.random() * 1000)        
       })
       
       // renderiza somente um item
-      if (i < 1) {
+      if (indice < 1) {
         main.appendChild($clone)
       }      
     })
