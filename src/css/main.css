@@ -25,7 +25,6 @@ main{
 
 .thumb-usuario {
   align-items: center;
-  border: 1px solid blueviolet;
   border-radius: 9999px;
   display: flex;
   margin-top: 12px;
