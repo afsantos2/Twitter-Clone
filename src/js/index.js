@@ -12,6 +12,7 @@ function postGerador() {
   function clonar($alvo) {
     postagens.forEach((post, indice) => {
       const $clone = $alvo.cloneNode(true)
+      
       $clone.dataset.cloneId = post.id
 
       // dados post header
