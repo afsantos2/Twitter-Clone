@@ -63,11 +63,11 @@
           </span>
         </div>
       </div>
-      <article class="post-limite">
+      <article class="post-limite js-post-limite">
         <div class="post-colunas">
           <div class="thumb-usuario-box">
             <div class="thumb-usuario">
-              <img src="https://pbs.twimg.com/profile_images/1671150146699030529/b9T1Gqmv_normal.jpg" alt="Netflix" class="img">
+              <img src="https://pbs.twimg.com/profile_images/1671150146699030529/b9T1Gqmv_normal.jpg" class="img js-usuario-img">
             </div>
           </div>
           <div class="post-informacoes-box">
@@ -75,7 +75,7 @@
             <div class="post-header-box">
               <ul class="post-nome-nick-lista">
                 <li class="post-nome-item">
-                  <span>NomeUsuario</span>
+                  <span class="js-post-username">NomeUsuario</span>
                   <div class="post-verificador">
                     <svg viewBox="0 0 22 22" aria-label="Conta verificada" role="img" class="img" data-testid="icon-verified">
                       <g>
@@ -85,10 +85,10 @@
                   </div>
                 </li>
                 <li class="post-nick-item">
-                  <span class="post-nick">@Nick</span>
+                  <span class="post-nick js-post-nickname">@Netflix</span>
                   <span class="post-ponto">.</span>
-                  <span class="post-tempo">
-                    <time datetime="2023-06-22T22:32:52.000Z">2h</time>
+                  <span class="post-tempo js-post-tempo">
+                    <time>30min</time>
                   </span>
                 </li>
               </ul>
@@ -103,7 +103,7 @@
             </div>
             <div class="post-img-principal-box">
               <a href="/" class="post-img-principal-link">
-                <img src="/src/img/2.avif" alt="teste" class="post-img img">
+                <img loading="lazy" src="/src/img/2.avif" alt="teste" class="post-img img js-post-img">
               </a>
             </div>
             <ul class="post-stat-lista">
@@ -158,5 +158,6 @@
       <button class="btn">Entrar</button>
       <button class="btn">Inscrever-se</button>
   </footer>
+  <script type="module" src="src/js/index.js"></script>
 </body>
 </html>
