@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 65px;
+  height: var(--altura-rodape);
   display: flex;
   justify-content: center;
   align-items: center;
