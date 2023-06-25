@@ -52,12 +52,9 @@ main{
   gap: 4px;
 }
 
-.post-nick-item {
-  margin-left: 4px;
-}
-
 .post-verificador {
   height: 16px;
+  margin-right: 4px;
   width: 16px;
   fill:var(--azul-claro);
 }
