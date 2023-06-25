@@ -34,10 +34,7 @@ function postGerador() {
         $clone.querySelector(classe).innerText = Math.floor(Math.random() * 1000)        
       })
       
-      // renderiza somente um item
-      if (indice < 1) {
-        main.appendChild($clone)
-      }      
+      main.appendChild($clone)  
     })
   }
 }
