@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 @import './reset.css';
 @import './variaveis.css';
 @import './header.css';
 @import './main.css';
 @import './footer.css';
+
+@font-face {
+  font-family: 'TwitterChirp';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://abs.twimg.com/responsive-web/client-web/Chirp-Regular.80fda27a.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TwitterChirp';
+  font-style: bold;
+  font-weight: 700;
+  src: url('https://abs.twimg.com/responsive-web/client-web/Chirp-Bold.ebb56aba.woff2') format('woff2');
+}
 
 .img {
   width: 100%;

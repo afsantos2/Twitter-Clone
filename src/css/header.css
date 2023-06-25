@@ -191,6 +191,20 @@ header ul{
     width: 275px;
   }
 
+  .explorar-tt {
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 20px 0 16px;
+  }
+
+  .config-tt {
+    font-family: 'TwitterChirp', 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 20px 0 16px;
+  }
+
   .config-tt, 
   .explorar-tt {
     display: block;
@@ -205,6 +219,5 @@ header ul{
   .topo-menu-item:is(:nth-child(2), :nth-child(3)) {
     display: flex;
     align-items: center;
-    gap: 20px;
   }
 }
