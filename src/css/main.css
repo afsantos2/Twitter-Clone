@@ -1,7 +1,6 @@
 main{
   flex-basis: 598px;
   position: relative;
-  height: var(--altura-rodape);
 }
 
 .post-limite{
