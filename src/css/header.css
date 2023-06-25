@@ -25,7 +25,6 @@ header ul{
 .config-icone-box{
   display: flex;
   justify-items: center;
-  width: 28px;
 }
 
 .config-icone-pontos {
@@ -57,10 +56,15 @@ header ul{
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     transition-timing-function: cubic-bezier(0, 0, 0, 1);
+    z-index: 3;
   }
 
   .config-icone-eng {
     display: none;
+  }
+
+  .config-icone-box {
+    width: 20px;
   }
 
   .topo-menu-item:nth-child(2) {
@@ -72,10 +76,6 @@ header ul{
 
   .topo-menu-item:hover:nth-child(2) {
     outline: 1px solid var(--azul-claro);
-  }
-
-  .topo-menu-item:nth-child(3) {
-    padding: 10px;
   }
 
   .topo-menu-item:active:nth-child(3) {
@@ -148,6 +148,10 @@ header ul{
 
   .config-icone-pontos {
     display: none;
+  }
+
+  .config-icone-box {
+    width: 28px;
   }
 
   .topo-menu-item {
