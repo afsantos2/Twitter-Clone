@@ -50,13 +50,24 @@ main{
   align-items: center;
   display: flex;
   gap: 4px;
+  font-family: 'TwitterChirp';
+  font-weight: 700;
+  font-size: 15px;
 }
 
 .post-verificador {
-  height: 16px;
+  display: flex;
+  align-items: center;
   margin-right: 4px;
-  width: 16px;
+  width: 20px;
   fill:var(--azul-claro);
+}
+
+.post-nick, .post-ponto, .post-tempo {
+  font-family: 'TwitterChirp', 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--cinza-escuro-2);
 }
 
 .post-config-btn-box {
@@ -71,12 +82,17 @@ main{
 }
 
 .post-texto {
+  color: var(--cinza-escuro-3);
   font-size: 15px;
-  font-family: "TwitterChirp", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-weight: 400;  
   line-height: 20px;  
   overflow-wrap: break-word;  
   position: relative;  
+}
+
+.post-hash {
+  color: var(--azul-claro);
 }
 
 .post-img-principal-link {
@@ -155,6 +171,12 @@ main{
     font-weight: bold;
     font-size: 20px;
     margin: 0 20px 0 16px;
+  }
+
+  .post-limite:hover {
+    background-color: var(--cinza-transparente-2);
+    cursor: pointer;
+    transition: background-color .2s;
   }
 
   .post-nome-nick-lista {
