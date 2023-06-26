@@ -166,6 +166,11 @@ main{
   color: var(--azul-claro);
 }
 
+.post-stat-item:hover:nth-child(5) .post-compartilhar-btn {
+  background-color: var(--azul-claro-transparente);
+  fill: var(--azul-claro);
+}
+
 .post-stat-icone {  
   width: 1.25rem;
   height: 1.25rem;
