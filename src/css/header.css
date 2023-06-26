@@ -125,7 +125,6 @@ header ul{
   header {
     width: 15%;
     height: 100%;
-    border-right: 1px solid var(--cinza-claro);
   }
 
   header ul{
