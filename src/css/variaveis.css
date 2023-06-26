@@ -1,7 +1,8 @@
-:root{
+:root {
   /* cores */
   --branco-transparente-1: rgba(255, 255, 255, 0.851);
   --azul-claro: rgb(29, 155, 240);
+  --azul-claro-transparente: rgba(29, 155, 240, .09);
   --cinza-claro: rgb(239, 243, 244);
   --cinza-claro-2: rgba(15, 20, 25, 0.102);
   --cinza-transparente-1: rgba(255, 255, 255, 0.302);
@@ -10,8 +11,9 @@
   --cinza-escuro-2: rgb(83, 100, 113);
   --cinza-escuro-3: rgb(15, 20, 25);  
   --preto:#000;
+  --rosa-1:rgb(249, 24, 128);
 
   /* medidas */
   --altura-topo:53px;
   --altura-rodape: 65px
-} 
+}
