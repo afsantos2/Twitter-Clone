@@ -126,7 +126,11 @@ main{
   padding: 10px;
 }
 
-.post-stat-item:hover:nth-child(1) .post-stat-comentarios-img-box{
+.post-stat-comentarios {
+  display: flex;
+}
+
+.post-stat-item:hover:nth-child(1) .post-stat-comentarios-img-box {
   background-color: var(--azul-claro-transparente);
   fill: var(--azul-claro);
 }
@@ -135,8 +139,13 @@ main{
   color: var(--azul-claro);
 }
 
-.post-stat-comentarios{
-  display: flex;
+.post-stat-item:hover:nth-child(2) .post-stat-retweets {
+  background-color: var(--verde-claro-transparente-1);
+  fill: var(--verde-claro-1);
+}
+
+.post-stat-item:hover:nth-child(2) .post-stat-valor {
+  color: var(--verde-claro-1);
 }
 
 .post-stat-icone {  
