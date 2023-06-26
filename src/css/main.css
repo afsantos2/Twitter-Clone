@@ -157,6 +157,15 @@ main{
   color: var(--rosa-1);
 }
 
+.post-stat-item:hover:nth-child(4) .post-stat-views {
+  background-color: var(--azul-claro-transparente);
+  fill: var(--azul-claro);
+}
+
+.post-stat-item:hover:nth-child(4) .post-stat-valor {
+  color: var(--azul-claro);
+}
+
 .post-stat-icone {  
   width: 1.25rem;
   height: 1.25rem;
