@@ -120,7 +120,7 @@ main{
   main {
     border-left: 1px solid var(--cinza-claro);
   }
-  
+
   .barra-explorar-limite {
     position: sticky;
     backface-visibility: hidden;
@@ -146,10 +146,15 @@ main{
     width: 20px;  
   }
 
-  .barra-explorar-texto {
+  .barra-explorar-texto-box {
     color: var(--cinza-escuro-3);
-    font-weight: 700;
-    font-size: 15px;
+  }
+
+  .barra-explorar-texto {
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 20px 0 16px;
   }
 
   .post-nome-nick-lista {
