@@ -19,6 +19,7 @@
   --preto:#000;
 
   --rosa-1:rgb(249, 24, 128);
+  --rosa-transparente-1:rgba(249, 24, 128, 0.1);
 
   /* medidas */
   --altura-topo:53px;
