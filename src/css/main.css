@@ -107,6 +107,9 @@ main{
 
 .post-stat-lista {
   display: flex;
+  font-family: 'TwitterChirp', 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
   justify-content: space-around;
   max-width: 425px;
   position: relative;
