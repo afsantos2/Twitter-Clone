@@ -1,18 +1,52 @@
-.rodape-flutuante{
-  position: fixed;
+.rodape{
   bottom: 0;
-  width: 100%;
-  height: var(--altura-rodape);
+  background-color: white;
+  font-family: 'TwitterChirp', 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 35px;
-
-  border: 1px solid;
+  height: var(--altura-rodape);
+  position: fixed;  
+  width: 100%;
 }
 
-.btn{
-  height: 35px;
-  width: 150px;
-  border-radius: 50px;
+.rodape-btn-lista {
+  padding: 16px;
+  border-top: 1px solid var(--cinza-claro-2);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.rodape-btn-item {
+  align-items: center;
+  border-radius: 9999px;
+  border: 1px solid var(--cinza-claro-2);
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.btn-inscrever-item {
+  margin-left: 12px;
+}
+
+@media (max-width:499px) {
+  .btn-entrar {
+    color: var(--azul-claro);
+  }
+
+  .btn-inscrever-item {
+    background-color: var(--azul-claro);
+  }
+
+  .btn-inscrever {
+    color: var(--branco);
+  }
+}
+
+@media (min-width:500px) {
+  .rodape {
+    background-color: var(--azul-claro);
+  }
 }

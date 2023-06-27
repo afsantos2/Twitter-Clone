@@ -1,5 +1,7 @@
 :root {
   /* cores */
+
+  --branco: rgb(255, 255, 255);
   --branco-transparente-1: rgba(255, 255, 255, 0.851);
 
   --azul-claro: rgb(29, 155, 240);
