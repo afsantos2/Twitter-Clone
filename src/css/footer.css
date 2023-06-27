@@ -27,6 +27,11 @@
   justify-content: center;
 }
 
+.rodape-btn-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .btn-inscrever-item {
   margin-left: 12px;
 }
@@ -48,5 +53,17 @@
 @media (min-width:500px) {
   .rodape {
     background-color: var(--azul-claro);
+  }
+
+  .rodape-btn-item {
+    border: 1px solid var(--branco-transparente-2);
+  }
+
+  .btn-entrar {
+    color: var(--branco);
+  }
+
+  .btn-inscrever-item {
+    background-color: var(--branco);
   }
 }

@@ -3,6 +3,7 @@
 
   --branco: rgb(255, 255, 255);
   --branco-transparente-1: rgba(255, 255, 255, 0.851);
+  --branco-transparente-2: rgba(255, 255, 255, 0.35);
 
   --azul-claro: rgb(29, 155, 240);
   --azul-claro-transparente: rgba(29, 155, 240, .09);
