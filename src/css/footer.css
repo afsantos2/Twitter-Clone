@@ -23,6 +23,7 @@
   border-radius: 9999px;
   border: 1px solid var(--cinza-claro-2);
   display: flex;
+  flex-grow: 1;
   justify-content: center;
 }
 
