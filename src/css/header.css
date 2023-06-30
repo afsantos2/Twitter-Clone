@@ -12,7 +12,6 @@ header ul{
   justify-content: space-between;
   height: var(--altura-topo);
   padding: 0 20px;
-
 }
 
 .busca-icone-box{
@@ -20,20 +19,9 @@ header ul{
   gap: 14px;
 }
 
-.busca-icone-rwd{
-  fill: currentColor;
-  color: #536471;
-  height: 1.25rem;
-}
-
-.config-icone-box{
+.config-icone-box {
   display: flex;
   justify-items: center;
-}
-
-.config-icone-pontos {
-  width: 100%;
-  fill: var(--cinza-escuro);
 }
 
 .config-tt,
@@ -41,15 +29,11 @@ header ul{
   display: none;
 }
 
-.twitter-icone-box {
-  width: 30px;
+.twitter-icone {
+  height: var(--icone-twitter-topo);
+  width: var(--icone-twitter-topo);
   display: flex;
-}
-  
-.twitter-icone{
-  color: var(--azul-claro);
-  fill: currentColor;
-  width: 100%;
+  background: url('/src/img/icones/twitter.svg');
 }
 
 @media (max-width: 499px) {
@@ -63,12 +47,10 @@ header ul{
     z-index: 3;
   }
 
-  .config-icone-eng {
-    display: none;
-  }
-
-  .config-icone-box {
+  .config-icone {
+    height: 20px;
     width: 20px;
+    background: url('/src/img/icones/config-pontos.svg');
   }
 
   .topo-menu-item:nth-child(2) {
@@ -105,6 +87,12 @@ header ul{
 
   .busca-icone-box {
     padding-left: 25px;
+  }
+
+  .busca-icone {
+    background: url('/src/img/icones/busca-cinza.svg') center no-repeat;
+    height: 20px;    
+    width: 20px;
   }
 
   .busca-icone-tablet {
@@ -145,12 +133,16 @@ header ul{
     width: 28px;
   }
 
-  .busca-icone-rwd {
-    display: none;
+  .busca-icone {
+    background: url('/src/img/icones/busca-cinza-escuro.svg') center no-repeat;
+    height: 1.75rem;    
+    width: 1.75rem;
   }
 
-  .config-icone-pontos {
-    display: none;
+  .config-icone {
+    background: url('/src/img/icones/engrenagem.svg') center no-repeat;
+    height: 1.75rem;    
+    width: 1.75rem;
   }
 
   .config-icone-box {
