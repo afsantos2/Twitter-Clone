@@ -292,6 +292,10 @@ main{
     display: flex;
   }
 
+  .post-username:hover {
+    text-decoration: underline;
+  }
+
   .post-stat-lista {
     justify-content: space-between;
   }
