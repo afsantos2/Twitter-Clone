@@ -243,6 +243,7 @@ main{
 @media (min-width:500px){
   main {
     border-left: 1px solid var(--cinza-claro);
+    border-right: 1px solid var(--cinza-claro);
   }
 
   .barra-explorar-limite {

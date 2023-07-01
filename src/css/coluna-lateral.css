@@ -1,0 +1,134 @@
+.col-lat-limite{
+  border-radius: 20px;
+  border: 1px solid var(--cinza-claro);
+  font-family: 'TwitterChirp';
+  padding: 16px 20px 20px 20px;
+  max-width: 350px;
+  margin-top: 16px;
+  position: fixed;
+}
+
+.col-lat-inscricao-tt{
+  font-family: 'TwitterChirp', 'Roboto';
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.col-lat-btn{
+  align-items: center;
+  border: 1px solid var(--cinza-claro-3);
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex: 0 1 200px;
+  height: 40px;
+  text-align: center;
+  transition: background-color 200ms;
+}
+
+.inscricao-gl-btn{
+  color: var(--cinza-claro-4);
+  font-family: 'Google Sans';
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.inscricao-gl-btn:hover{
+  background-color: var(--azul-transparente-2);
+  border-color: var(--azul-claro-2);
+}
+
+.inscricao-gl-icone{
+  margin-right: 8px;
+  width: 18px;
+}
+
+.inscricao-apple-btn{
+  font-family: 'TwitterChirp', 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.inscricao-apple-btn:hover{
+  background-color: rgb(232, 232, 232);
+}
+
+.inscricao-apple-icone{
+  margin-right: 8px;
+  width: 18px;
+}
+
+.col-lat-separador-box{
+  align-items: center;
+  display: flex;
+  margin-block: 4px;
+  margin-inline: auto;
+  width: 300px;
+}
+
+.col-lat-separador{
+  background-color: var(--cinza-claro);
+  height: 1px;
+  width: 100%;
+}
+
+.col-lat-ou-texto{
+  margin-inline: 4px;
+}
+
+.criar-conta-btn{
+  background-color: var(--azul-claro);
+  color: var(--branco);
+  font: 700 15px 'TwitterChirp';
+  margin-bottom: 8px;
+}
+
+.criar-conta-btn:hover{
+  background-color: var(--azul-escuro);
+}
+
+.col-lat-pergunta {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.col-lat-pergunta-tt{
+  font: 700 17px 'TwitterChirp', 'Roboto';
+}
+
+.col-lat-condicoes-texto{
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.col-lat-link{
+  color: var(--azul-claro);
+}
+
+.col-lat-link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.entrar-btn{
+  color: var(--azul-claro);
+  font: 700 15px 'TwitterChirp';
+}
+
+.entrar-btn:hover{
+  background-color: var(--azul-transparente-2);
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .col-lat-limite{
+    margin-inline: auto;
+  } 
+}
+
+@media (min-width: 1280px) {
+  .col-lat-limite{
+    margin-left: 40px;
+  } 
+}

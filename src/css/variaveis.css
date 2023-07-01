@@ -1,20 +1,24 @@
 :root {
   /* cores */
+  --azul-claro: rgb(29, 155, 240);
+  --azul-claro-2: rgb(210, 227, 252);
+  --azul-escuro: rgb(26, 140, 216);
+  --azul-claro-transparente: rgba(29, 155, 240, .09);
+  --azul-transparente-2:rgba(210, 227, 252, 0.197);
 
   --branco: rgb(255, 255, 255);
   --branco-transparente-1: rgba(255, 255, 255, 0.851);
   --branco-transparente-2: rgba(255, 255, 255, 0.35);
 
-  --azul-claro: rgb(29, 155, 240);
-  --azul-claro-transparente: rgba(29, 155, 240, .09);
-
   --cinza-claro: rgb(239, 243, 244);
   --cinza-claro-2: rgba(15, 20, 25, 0.102);
+  --cinza-claro-3:rgb(218, 220, 224);
   --cinza-transparente-1: rgba(255, 255, 255, 0.302);
   --cinza-transparente-2: rgba(15, 20, 25, 0.03);
   --cinza-escuro: rgb(56, 67, 76);
   --cinza-escuro-2: rgb(83, 100, 113);
   --cinza-escuro-3: rgb(15, 20, 25);
+  --cinza-escuro-4: rgb(60, 64, 67);
   
   --verde-claro-1:rgb(0, 186, 124);
   --verde-claro-transparente-1: rgb(0, 186, 124, 0.1);

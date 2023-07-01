@@ -4,6 +4,7 @@
 @import './header.css';
 @import './main.css';
 @import './footer.css';
+@import './coluna-lateral.css';
 
 @font-face {
   font-family: 'TwitterChirp';
@@ -18,6 +19,20 @@
   font-weight: 700;
   src: url('https://abs.twimg.com/responsive-web/client-web/Chirp-Bold.ebb56aba.woff2') format('woff2');
 }
+  
+@font-face{
+  font-family:'Google Sans';
+  font-style:normal;
+  font-weight:400;
+  src:url(//fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owps.ttf)format('truetype');
+}
+  
+@font-face{
+  font-family:'Google Sans';
+  font-style:normal;
+  font-weight:500;
+  src:url(//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwM.ttf)format('truetype');
+}
 
 .img {
   width: 100%;
@@ -30,14 +45,13 @@
   }
 }
 
-.coluna-lateral-direita {
+.coluna-lateral {
   display: none;
 }
 
 @media (min-width:1024px) {
-  .coluna-lateral-direita {
-    display: flex;
+  .coluna-lateral {
+    display: block;
     flex: 1;
-    justify-content: center;
   }
 }
