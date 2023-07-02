@@ -149,7 +149,7 @@
           <span class="col-lat-ou-texto">ou</span>
           <div class="col-lat-separador"></div>
         </div>
-        <div class="col-lat-btn criar-conta-btn">
+        <div class="col-lat-btn criar-conta-btn js-criar-conta-btn">
           <span>Criar conta</span>
         </div>
         <div>
@@ -174,11 +174,80 @@
         <li class="btn-entrar-item rodape-btn-item">
           <span class="btn-entrar btn-texto">Entrar</span>
         </li>
-        <li class="btn-inscrever-item rodape-btn-item">
+        <li class="btn-inscrever-item rodape-btn-item js-rodape-inscricao-btn">
           <span class="btn-inscrever btn-texto">Inscrever-se</span>
         </li>
       </ul>
   </footer>
+  <dialog class="modal-cadastro js-modal-cadastro">
+    <div class="modal-limite">
+      <div class="modal-header">
+        <div class="modal-btn-fechar js-modal-btn-fechar">
+          <img src="/src/img/icones/btn-fechar.svg" alt="Fechar modal" class="modal-btn-fechar-icone">
+        </div>
+        <div>
+          <h2 class="modal-etapa-tt">Etapa 1 de 5</h2>
+        </div>
+      </div>
+      <div class="modal-main">
+        <h1 class="modal-criar-conta-tt">Criar sua conta</h1>
+        <form action="dialog">
+          <div class="modal-input-box">
+            <label for="" class="modal-input-label">
+              <span class="modal-input-texto">Nome</span>
+              <input autocomplete="off" type="text" name="nome" id="nome" class="modal-inputs">
+            </label>
+          </div>
+          <div class="modal-input-box">
+            <label class="modal-input-label">
+              <span class="modal-input-texto">E-mail</span>
+              <input autocomplete="off" type="email" name="email" id="email" class="modal-inputs">
+            </label>
+          </div>
+          <h3 class="modal-nasc-texto">
+            <span>Data de nascimento</span>
+          </h3>
+          <span class="modal-aviso-texto">
+            <p>Isso não será exibido publicamente. Confirme sua própria idade, mesmo se esta conta for de empresa, de um animal de estimação ou outros.</p>
+          </span>
+          <div class="modal-selects-box">
+            <div class="modal-data-select modal-select-mes">
+              <select name="mes" id="mes" class="modal-selects">
+                <option value="" disabled selected></option>
+                <option value="janeiro">Janeiro</option>
+              </select>
+              <span class="modal-data-nome">Nome</span>
+              <div class="modal-select-seta">
+                <img src="/src/img/icones/seta-baixo.svg" alt="Select" class="img">
+              </div>
+            </div>
+            <div class="modal-data-select modal-select-dia">
+              <select name="dia" id="dia" class="modal-selects">
+                <option value="" disabled selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <span class="modal-data-nome">Dia</span>
+              <div class="modal-select-seta">
+                <img src="/src/img/icones/seta-baixo.svg" alt="Select" class="img">
+              </div>
+            </div>
+            <div class="modal-data-select modal-select-ano">
+              <select name="ano" id="ano" class="modal-selects">
+                <option value="" disabled selected></option>
+                <option value="2023">2023</option>
+              </select>
+              <span class="modal-data-nome">Ano</span>
+              <div class="modal-select-seta">
+                <img src="/src/img/icones/seta-baixo.svg" alt="Select" class="img">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </dialog>
   <script type="module" src="src/js/index.js"></script>
 </body>
 </html>
