@@ -53,10 +53,6 @@
   max-width: initial;  
 }
 
-.modal-limite{
-  border: 1px solid blueviolet;
-}
-
 .modal-header{
   display: inline-flex;
   height: 53px;
@@ -207,6 +203,25 @@
 @media (min-width:500px){
   .container {
     display: flex;
+  }
+}
+
+@media (min-width:700px) {
+  .modal-cadastro[open]{
+    border-radius: 16px;
+    height: 650px;
+    max-width: 600px;
+    min-height: 764px;
+    margin: auto;
+  }
+
+  .modal-cadastro::backdrop{
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+  }
+
+  .modal-limite{
+    margin-inline: auto;
   }
 }
 
