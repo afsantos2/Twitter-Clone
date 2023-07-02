@@ -1,4 +1,4 @@
-import dados from '../dados-postagem.json' assert { type: 'json'}
+import dados from './dados.js'
 
 addEventListener('DOMContentLoaded', postGerador)
 
@@ -37,4 +37,33 @@ function postGerador() {
       main.appendChild($clone)  
     })
   }
+}
+
+const $criarContaBtn = document.querySelector('.js-criar-conta-btn')
+const $rodapeInscrcaoBtn = document.querySelector('.js-rodape-inscricao-btn')
+const $modalBtnFechar = document.querySelector('.js-modal-btn-fechar')
+
+$criarContaBtn.addEventListener('click', modalAbrir)
+
+
+
+$criarContaBtn.click()
+
+
+
+$rodapeInscrcaoBtn.addEventListener('click', modalAbrir)
+$modalBtnFechar.addEventListener('click', modalFechar)
+
+function modalAbrir() {
+  document.body.style.overflow = 'hidden'
+  const $modal = document.querySelector('.modal-cadastro')
+  
+  $modal.showModal()
+}
+
+function modalFechar() {
+  document.body.style.overflow = 'auto'
+  const $modal = document.querySelector('.modal-cadastro')
+  
+  $modal.close()
 }
