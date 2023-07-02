@@ -61,10 +61,6 @@
     width: 170px;
   }
 
-  .rodape-btn-item:hover{
-    cursor: pointer;
-  }
-
   .btn-entrar {
     color: var(--branco);
   }
