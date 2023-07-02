@@ -140,11 +140,11 @@ main{
 
 /* comentarios */
 .post-stat-coment-icone {
-  background: url('./src/img/icones/post-stat-coment-cinza.svg') no-repeat center;
+  background: url('../img/icones/post-stat-coment-cinza.svg') no-repeat center;
 }
 
 .post-stat-item:hover .post-stat-coment-icone {
-  background: url('./src/img/icones/post-stat-coment-azul.svg') no-repeat center;
+  background: url('../img/icones/post-stat-coment-azul.svg') no-repeat center;
 }
 
 .post-stat-item:hover .post-stat-comentarios {
@@ -158,11 +158,11 @@ main{
 
 /* retweets */
 .post-stat-retweets-icone {
-  background: url('./src/img/icones/post-stat-retweets-cinza.svg') no-repeat center;
+  background: url('../img/icones/post-stat-retweets-cinza.svg') no-repeat center;
 }
 
 .post-stat-item:hover .post-stat-retweets-icone {
-  background: url('./src/img/icones/post-stat-retweets-verde.svg') no-repeat center;
+  background: url('../img/icones/post-stat-retweets-verde.svg') no-repeat center;
 }
 
 .post-stat-item:hover .post-stat-retweets {
@@ -176,11 +176,11 @@ main{
 
 /* likes */
 .post-stat-likes-icone {
-  background: url('./src/img/icones/post-stat-likes-cinza.svg') no-repeat center;
+  background: url('../img/icones/post-stat-likes-cinza.svg') no-repeat center;
 }
 
 .post-stat-item:hover .post-stat-likes-icone {
-  background: url('./src/img/icones/post-stat-likes-rosa.svg') no-repeat center;
+  background: url('../img/icones/post-stat-likes-rosa.svg') no-repeat center;
 }
 
 .post-stat-item:hover .post-stat-likes {
@@ -194,11 +194,11 @@ main{
 
 /* views */
 .post-stat-views-icone {
-  background: url('./src/img/icones/post-stat-views-cinza.svg') no-repeat center;
+  background: url('../img/icones/post-stat-views-cinza.svg') no-repeat center;
 }
 
 .post-stat-item:hover .post-stat-views-icone {
-  background: url('./src/img/icones/post-stat-views-azul.svg') no-repeat center;
+  background: url('../img/icones/post-stat-views-azul.svg') no-repeat center;
 }
 
 .post-stat-item:hover .post-stat-views {
@@ -212,11 +212,11 @@ main{
 
 /* compartilhar */
 .post-stat-compartilhar-icone {
-  background: url('./src/img/icones/post-stat-comp-cinza.svg') no-repeat center;
+  background: url('../img/icones/post-stat-comp-cinza.svg') no-repeat center;
 }
 
 .post-stat-item:hover .post-stat-compartilhar-icone {
-  background: url('./src/img/icones/post-stat-comp-azul.svg') no-repeat center;
+  background: url('../img/icones/post-stat-comp-azul.svg') no-repeat center;
 }
 
 .post-stat-item:hover:nth-child(5) .post-stat-compartilhar {

@@ -33,7 +33,7 @@ header ul{
   height: var(--icone-twitter-topo);
   width: var(--icone-twitter-topo);
   display: flex;
-  background: url('./src/img/icones/twitter.svg');
+  background: url('../img/icones/twitter.svg');
 }
 
 @media (max-width: 499px) {
@@ -50,7 +50,7 @@ header ul{
   .config-icone {
     height: 20px;
     width: 20px;
-    background: url('./src/img/icones/config-pontos.svg');
+    background: url('../img/icones/config-pontos.svg');
   }
 
   .topo-menu-item:nth-child(2) {
@@ -90,7 +90,7 @@ header ul{
   }
 
   .busca-icone {
-    background: url('./src/img/icones/busca-cinza.svg') center no-repeat;
+    background: url('../img/icones/busca-cinza.svg') center no-repeat;
     height: 20px;    
     width: 20px;
   }
@@ -134,13 +134,13 @@ header ul{
   }
 
   .busca-icone {
-    background: url('./src/img/icones/busca-cinza-escuro.svg') center no-repeat;
+    background: url('../img/icones/busca-cinza-escuro.svg') center no-repeat;
     height: 1.75rem;    
     width: 1.75rem;
   }
 
   .config-icone {
-    background: url('./src/img/icones/engrenagem.svg') center no-repeat;
+    background: url('../img/icones/engrenagem.svg') center no-repeat;
     height: 1.75rem;    
     width: 1.75rem;
   }
