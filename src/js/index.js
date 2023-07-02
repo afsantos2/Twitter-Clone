@@ -44,13 +44,6 @@ const $rodapeInscrcaoBtn = document.querySelector('.js-rodape-inscricao-btn')
 const $modalBtnFechar = document.querySelector('.js-modal-btn-fechar')
 
 $criarContaBtn.addEventListener('click', modalAbrir)
-
-
-
-$criarContaBtn.click()
-
-
-
 $rodapeInscrcaoBtn.addEventListener('click', modalAbrir)
 $modalBtnFechar.addEventListener('click', modalFechar)
 
