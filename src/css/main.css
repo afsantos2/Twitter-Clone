@@ -256,6 +256,7 @@ main{
   .barra-explorar {
     align-items: center;
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     background: var(--branco-transparente-1);
     border: 1px solid var(--cinza-transparente-1);
     display: flex;

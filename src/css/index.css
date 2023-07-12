@@ -218,6 +218,7 @@
   .modal-cadastro::backdrop{
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .modal-limite{
