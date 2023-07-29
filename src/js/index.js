@@ -55,13 +55,13 @@ function modalCriarConta() {
     document.body.style.overflow = 'hidden'
     const $modal = document.querySelector('.modal-cadastro')
     
-    $modal.showModal()
+    $modal?.showModal()
   }
   
   function modalFechar() {
     document.body.style.overflow = 'auto'
     const $modal = document.querySelector('.modal-cadastro')
     
-    $modal.close()
+    $modal?.close()
   } 
 }
