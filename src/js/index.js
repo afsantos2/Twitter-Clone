@@ -47,9 +47,9 @@ function modalCriarConta() {
   const $rodapeInscrcaoBtn = document.querySelector('.js-rodape-inscricao-btn')
   const $modalBtnFechar = document.querySelector('.js-modal-btn-fechar')
   
-  $criarContaBtn.addEventListener('click', modalAbrir)
-  $rodapeInscrcaoBtn.addEventListener('click', modalAbrir)
-  $modalBtnFechar.addEventListener('click', modalFechar)
+  $criarContaBtn?.addEventListener('click', modalAbrir)
+  $rodapeInscrcaoBtn?.addEventListener('click', modalAbrir)
+  $modalBtnFechar?.addEventListener('click', modalFechar)
   
   function modalAbrir() {
     document.body.style.overflow = 'hidden'
