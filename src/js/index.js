@@ -3,6 +3,7 @@ import dados from './dados.js'
 addEventListener('DOMContentLoaded', () => {
   postGerador()
   modalCriarConta()
+  configMenu()
 })
 
 function postGerador() {
@@ -64,4 +65,23 @@ function modalCriarConta() {
     
     $modal?.close()
   } 
+}
+
+function configMenu() {
+  const $configBtn = document.querySelector('.js-config-btn')
+
+  $configBtn?.addEventListener('click', () => {
+    setTimeout(() => {
+      location.hash == '#settings' && configAbrir()      
+    }, 10)
+  })
+}
+
+function configAbrir() {
+  const $configMenu = document.querySelector('.js-config-menu')
+  const $posts = document.querySelectorAll('.js-post-limite')
+
+  $posts.forEach($post => $post.remove())
+  
+  $configMenu && ($configMenu.style.display = 'block')
 }

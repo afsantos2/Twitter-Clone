@@ -224,10 +224,18 @@ main{
   fill: var(--azul-claro);
 }
 
-
 .post-stat-icone {  
   width: 1.25rem;
   height: 1.25rem;
+}
+
+.config-menu {
+  border: 1px solid red;
+  display:none;
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background-color: white;  
 }
 
 @media (max-width:499px) {
