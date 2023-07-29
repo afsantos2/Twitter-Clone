@@ -201,6 +201,7 @@ header ul{
     font-weight: 400;
     font-size: 20px;
     margin: 0 20px 0 16px;
+    text-decoration: none;
   }
 
   .config-tt, 
@@ -217,6 +218,8 @@ header ul{
   .config-icone-link {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: initial;
   }
 
   .topo-menu-item:is(:nth-child(2), :nth-child(3)) {
