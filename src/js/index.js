@@ -3,7 +3,7 @@ import dados from './dados.js'
 addEventListener('DOMContentLoaded', () => {
   postGerador()
   modalCriarConta()
-  configMenu()
+  configMenuManipular()
 })
 
 function postGerador() {
@@ -67,21 +67,50 @@ function modalCriarConta() {
   } 
 }
 
-function configMenu() {
+function configMenuManipular() {
   const $configBtn = document.querySelector('.js-config-btn')
 
   $configBtn?.addEventListener('click', () => {
     setTimeout(() => {
-      location.hash == '#settings' && configAbrir()      
+      location.hash == '#settings' && configMenuAbrir()      
     }, 10)
   })
 }
 
-function configAbrir() {
+function configMenuAbrir() {
   const $configMenu = document.querySelector('.js-config-menu')
+  const $configMenuLista = document.querySelector('.js-config-menu-lista')  
+
+  $configMenu && ($configMenu.style.display = 'block')
+  
+  $configMenuLista?.addEventListener('click', evento => {
+    const $clicado = evento.target
+
+    configSubMenuAbrir($clicado)
+  })   
+  
+  postsRemover()
+}
+
+function configSubMenuAbrir($clicado) {
+  const classeAlvo = $clicado.dataset.alvo || ''
+  const $subMenu = document.querySelector(classeAlvo)
+  
+  $subMenu && ($subMenu.style.display = 'block')
+
+  nivelVoltar($subMenu)
+}
+
+function nivelVoltar($alvo) {
+  const $btnVoltar = document.querySelector('.js-sub-menu-voltar-btn')
+
+  $btnVoltar?.addEventListener('click', () => {  
+    $alvo && ($alvo.style.display = 'none')    
+  })
+}
+
+function postsRemover() {
   const $posts = document.querySelectorAll('.js-post-limite')
 
-  $posts.forEach($post => $post.remove())
-  
-  $configMenu && ($configMenu.style.display = 'block')
+  $posts.forEach($post => $post.remove())  
 }

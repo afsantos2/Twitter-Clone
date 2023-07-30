@@ -230,12 +230,21 @@ main{
 }
 
 .config-menu {
-  border: 1px solid red;
+  background-color: white;  
   display:none;
   position: absolute;
   inset: 0;
   z-index: 3;
+  height: min-content;
+}
+
+.config-sub-menu {
+  border: 1px solid red;
   background-color: white;  
+  display:none;
+  position: absolute;
+  inset: 0;
+  height: min-content;
 }
 
 @media (max-width:499px) {

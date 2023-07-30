@@ -130,8 +130,17 @@
           </div>
         </div>
       </article>
-      <section class="config-menu js-config-menu">
+      <section class="config-menu js-config-menu" data-nivel="1">
         <h1>Configurações</h1>
+        <ul class="config-menu-lista js-config-menu-lista">
+          <li>
+            <a href="#settings/account" data-alvo=".js-config-sub-menu">Sua conta</a>
+          </li>      
+        </ul>
+        <section class="config-sub-menu js-config-sub-menu" data-nivel="2">
+          <h1>Sub-menu</h1>
+          <button class="sub-menu-voltar-btn js-sub-menu-voltar-btn">Voltar</button>
+        </section>
       </section>
     </main>
     <aside class="coluna-lateral">
